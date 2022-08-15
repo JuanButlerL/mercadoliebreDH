@@ -54,6 +54,8 @@ body {
     font-size: 20px;
     text-align: center;
     padding: 10px;
+    margin: auto;
+    width: 3%;
   } 
 
 .titulo-footer {
