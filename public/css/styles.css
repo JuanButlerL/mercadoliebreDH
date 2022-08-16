@@ -29,15 +29,17 @@ body {
   }
 
   .fotos {
-    display: flex;
-    flex-wrap: wrap;
     width: 300px;
     padding-top: 30px;
+    align-content:center ;
   }
 
 
 .descuento {
-    font-size: 16px;    
+    font-size: 16px;
+    color: #39b54a;
+    margin-bottom: 10px;
+    
   }
 
 .descripcion {
@@ -46,6 +48,7 @@ body {
 
 .titulo {
     font-size: 24px;
+    text-align: center;
 }
 
 #burger-menu {
@@ -74,4 +77,28 @@ body {
 .texto-footer{
     text-align: center;
     margin-bottom: 40px;
+}
+
+.articulos{
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 15px;
+}
+
+.color-section {
+  background-color: #ebebeb;
+}
+
+.banner {
+  width: 100vw;
+}
+
+.icono-camion {
+  color: #39b54a;
+  font-size: 20px;
+  margin-bottom: 10px;
+  
 }
